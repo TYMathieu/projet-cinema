@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #252525;
+}
+header {
+  position: initial;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  justify-content: space-between;
+}
+.logo {
+  width: 60px;
+  height: auto;
+}
+.flex {
+  display: flex;
+}
+.divNav {
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainNav {
+  width: 100%;
+  justify-content: space-around;
+}
+.fas {
+  color: #edc9f6;
+  margin-left: 5px;
+}
+.navbar {
+  background: #121212;
+}
+.navbar a {
+  color: white;
+}
+main {
+  padding: 1em;
+}
+
+.fas {
+  color: white;
+  margin-left: 0;
+}
+
+/* Tableau */
+
+.table {
+  color: white;
+}
+
+.table td {
+  line-height: 38px;
+}
+
+.table span:hover {
+  cursor: pointer;
+}
+
+/* .table .btn {
+   padding: 0.05rem 0.5rem; 
+ }  */
+
+/* list */
+
+.list-group-item {
+  background: #3a3a3a;
+  color: white;
+}
+
+/* detail film */
+
+.imgAffiche {
+  width: 100%;
+}
+
+.moviehead {
+  width: 800px;
+  margin-left: 0;
+}
+
+/* form */
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+/* modal */
+
+.modal {
+  color: black;
+}
